@@ -20,16 +20,16 @@ const projects = [
     demoUrl: "#",
     githubUrl: "#",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 3,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "Full-featured e-commerce platform with user authentication and payment processing.",
+  //   image: "/projects/project3.png",
+  //   tags: ["React", "Node.js", "Stripe"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
 ];
 
 export const ProjectsSection = () => {
@@ -102,8 +102,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
-            // href="https://github.com/Rohitdrk22"
+            href="https://github.com/Rohitdrk22"
           >
             Check My Github <ArrowRight size={16} />
           </a>
