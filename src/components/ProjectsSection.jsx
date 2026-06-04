@@ -11,7 +11,7 @@ const projects = [
     image: `${import.meta.env.BASE_URL}projects/project1.png`,
     tags: ["Java Script","Express", "EJS", "Node.js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Rohitdrk22/Blog_WebSite#",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projects = [
     image: `${import.meta.env.BASE_URL}projects/project2.png`,
     tags: ["Java", "Spring Boot", "React.js", "Docker", "Kafka", "gRPC", "Axios"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Rohitdrk22/patient-management-system",
   },
   // {
   //   id: 3,
@@ -80,13 +80,13 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
+                    {/* <a
                       href={project.demoUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
-                    </a>
+                    </a> */}
                     <a
                       href={project.githubUrl}
                       target="_blank"
