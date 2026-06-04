@@ -1,11 +1,14 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+image: `${import.meta.env.BASE_URL}projects/project1.png`
+image: `${import.meta.env.BASE_URL}projects/project2.png`
+
 
 const projects = [
   {
     id: 1,
     title: "Blog Website",
     description: "A responsive web application built using Node.js, Express.js, EJS, HTML, and CSS.",
-    image: "/projects/project1.png",
+    image: `${import.meta.env.BASE_URL}projects/project1.png`,
     tags: ["Java Script","Express", "EJS", "Node.js"],
     demoUrl: "#",
     githubUrl: "#",
@@ -15,7 +18,7 @@ const projects = [
     title: "Patient Managmenet System",
     description:
       "A patient management system for handling patient records, appointments, and medical details efficiently.",
-    image: "/projects/project2.png",
+    image: `${import.meta.env.BASE_URL}projects/project2.png`,
     tags: ["Java", "Spring Boot", "React.js", "Docker", "Kafka", "gRPC", "Axios"],
     demoUrl: "#",
     githubUrl: "#",
