@@ -6,6 +6,7 @@ import { AboutSection } from "../components/AboutSection";
 import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
+import ChatBot from "../components/ChatBot";
 import { Footer } from "../components/Footer";
 
 export const Home = () => {
@@ -27,6 +28,9 @@ export const Home = () => {
         <ContactSection />
       </main>
 
+      {/* Floating Chatbot */}
+      <ChatBot />
+      
       {/* Footer */}
       <Footer />
     </div>

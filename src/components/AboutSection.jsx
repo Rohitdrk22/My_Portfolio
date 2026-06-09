@@ -80,7 +80,7 @@ export const AboutSection = () => {
 
                   <p className="text-muted-foreground">
                     Developing scalable microservices and secure REST APIs using
-                    Java, Spring Boot, Spring Security, Kafka, and MySQL.
+                    Java, Spring Boot, Spring Security, Kafka, and PostgreSQL.
                   </p>
                 </div>
               </div>
